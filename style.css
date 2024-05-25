@@ -1,0 +1,160 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.custom_inner img
+{
+  object-fit: cover;
+}
+.custom_inner h5,p
+{
+ color: black;
+}
+.custom_row .card
+{
+  padding: 20px;
+  height: 350px;
+}
+.custom_row .col
+{
+  display:flex ;
+  justify-content: center;
+
+  
+}
+.custom_body
+{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+/* extra */
+
+.card-section-a
+{
+    height: auto;
+    margin: 2rem 0 2rem 0;
+    /* background-color: #F5F7F8; */
+
+    padding: 1rem;
+}
+.card-container-a
+{
+    display: grid;
+     grid-template-columns: repeat(auto-fit,minmax(20rem,1fr)); 
+    /* grid-template-columns: repeat(3,1fr); */
+    /* justify-content: center; */
+    justify-items: center;
+    gap: 2rem;
+    column-gap: 4rem;
+    padding: 2rem ;
+    margin: 1rerm 2rem ;
+    background-color: #eaf7fd;
+}
+.addcard
+{
+    border: none;
+    border-radius: 0px !important;
+    width: 250px;
+    padding: 1rem ;
+    background-color: #ffffff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+   
+    
+}
+/* .addcard:hover
+{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+} */
+.inner-img
+{
+width: 100%;
+margin-bottom: 1rem;
+}
+.inner-img:hover
+{
+    /* transition: 0.2s;
+    height: 175px;
+    width: 175px ; */
+    filter: drop-shadow(10px 10px 15px #979db6);
+    transform: scale(1.1);
+   
+   
+}
+.inner
+{
+    margin: 0px auto ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+   
+}
+.inner-detail
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.model
+{
+    font-size: 1rem;
+}
+.price
+{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #0F2167;
+}
+.outer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0px 0px 0px;
+}
+.outer p
+{
+    margin: auto 0px;
+}
+.outer img:hover
+{
+    height: 38px;
+    width: 38px;
+    transition: 0.2s;
+    transform: rotate(10deg);
+   cursor: pointer;
+}
+.custom-btn
+{
+    height: 40px;
+    padding: 4px 18px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 0;
+    background-color:#0F2167 ;
+    color: white;
+    transition: 0.3s;
+}
+.custom-btn:hover
+{
+    background-color:#DA0C81;
+}
+
+.custom_item1 img
+{
+ margin: 25px;
+ object-fit:fill;
+
+}
+.carousel-inner
+{
+  background-color: lightgray;
+}
